@@ -3,10 +3,10 @@ public Class Fish
   private Boolean freshwater;
   private String behavior;
   private String swimming area;
-  private int minimumPurchaeQuantity; 
-  private int maximumPurchaseQuantity;
-  private int minimumTankSizeRequired; 
-  private int extraTankSizeRequired; 
+  private int minPurchaseQuantity; 
+  private int maxPurchaseQuantity;
+  private double minTankSizeRequired; 
+  private double extraTankSizeRequired; 
   private double phMinRequired;
   private double phMaxRequired;
   private double nh4MinRequired;
