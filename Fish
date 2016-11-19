@@ -1,10 +1,10 @@
 public Class Fish
 {
-  private Boolean freshwater;
+  private boolean freshwater;
   private String behavior;
-  private String swimming area;
+  private String swimmingArea;
   private int minPurchaseQuantity; 
-  private int maxPurchaseQuantity;
+  private double fishVolume;
   private double minTankSizeRequired; 
   private double extraTankSizeRequired; 
   private double phMinRequired;
@@ -15,15 +15,40 @@ public Class Fish
   private double co2MaxRequired;
   private double minTempRequired;
   private double maxTemptRequired;
-  private Boolean needsDecorations;
+  private boolean needsDecorations;
   
   public Fish() 
   {
-    super();
+
   }
   
+  public boolean getFreshwater() 
+  {
+    return freshwater;
+  }
   
+  public boolean setFreshwater(boolean freshwater) 
+  {
+    this.freshwater = freshwater;
+  }
   
+  public String getBehavior()
+  {
+    return behavior;
+  }
   
+  public String setBehavior(String behavior)
+  {
+    this.behavior = behavior;
+  }
   
+  public String swimmingArea()
+  {
+    return swimmingArea;
+  }
+  
+  public String behavior()
+  {
+    return behavior;
+  }
 }
