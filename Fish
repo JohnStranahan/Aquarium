@@ -42,7 +42,7 @@ public Class Fish
     this.behavior = behavior;
   }
   
-  public String swimmingArea()
+  public String getSwimmingArea()
   {
     return swimmingArea;
   }
