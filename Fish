@@ -1,0 +1,29 @@
+public Class Fish
+{
+  private Boolean freshwater;
+  private String behavior;
+  private String swimming area;
+  private int minimumPurchaeQuantity; 
+  private int maximumPurchaseQuantity;
+  private int minimumTankSizeRequired; 
+  private int extraTankSizeRequired; 
+  private double phMinRequired;
+  private double phMaxRequired;
+  private double nh4MinRequired;
+  private double nh4MaxRequired;
+  private double co2MinRequired;
+  private double co2MaxRequired;
+  private double minTempRequired;
+  private double maxTemptRequired;
+  private Boolean needsDecorations;
+  
+  public Fish() 
+  {
+    super();
+  }
+  
+  
+  
+  
+  
+}
